@@ -13,6 +13,7 @@ const Navbar = () => {
 
   const links = [
     { href: "#tentang", label: "Tentang" },
+    { href: "#galeri", label: "Galeri" },
     { href: "#layanan", label: "Layanan" },
     { href: "#kontak", label: "Kontak" },
   ];
