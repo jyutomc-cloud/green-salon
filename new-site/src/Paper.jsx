@@ -1,1 +1,1 @@
-import React from 'react';import * as PaperModule from './shaders/3d-paper/ThreeDPaper';const Original=PaperModule.ThreeDPaper||PaperModule.default;export default function Paper(){return <Original variant="certificate" style={{width:'100%',height:'100%'}}/>}
+import React from 'react';import {ThreeDPaper} from './shaders/3d-paper/ThreeDPaper';export default function Paper(){return <ThreeDPaper variant="certificate" style={{width:'100%',height:'100%'}}/>}
